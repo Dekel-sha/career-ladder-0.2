@@ -1,0 +1,158 @@
+{
+  "companies": [
+    {
+      "id": "company-1",
+      "name": "TechCorp Inc.",
+      "website": "https://techcorp.com",
+      "description": "Leading technology company specializing in cloud solutions"
+    },
+    {
+      "id": "company-2", 
+      "name": "StartupXYZ",
+      "website": "https://startupxyz.io",
+      "description": "Fast-growing startup in the fintech space"
+    },
+    {
+      "id": "company-3",
+      "name": "Enterprise Solutions Ltd.",
+      "website": "https://enterprise-solutions.com",
+      "description": "Enterprise software and consulting services"
+    },
+    {
+      "id": "company-4",
+      "name": "Innovation Labs",
+      "website": "https://innovation-labs.com",
+      "description": "Research and development company focused on AI and ML"
+    },
+    {
+      "id": "company-5",
+      "name": "Digital Agency Co.",
+      "website": "https://digital-agency.co",
+      "description": "Full-service digital marketing and web development agency"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1",
+      "companyId": "company-1",
+      "title": "Senior Frontend Developer",
+      "roleType": "Frontend Developer",
+      "status": "interview",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-01-20T14:30:00Z",
+      "links": {
+        "jobPosting": "https://techcorp.com/careers/senior-frontend-dev",
+        "companyWebsite": "https://techcorp.com"
+      },
+      "notes": "Great company culture, excellent benefits package. Interview scheduled for next week.",
+      "salary": {
+        "min": 120000,
+        "max": 150000,
+        "currency": "USD"
+      },
+      "location": "San Francisco, CA",
+      "remote": true
+    },
+    {
+      "id": "job-2",
+      "companyId": "company-2",
+      "title": "Full Stack Engineer",
+      "roleType": "Full Stack Developer",
+      "status": "applied",
+      "createdAt": "2024-01-18T09:15:00Z",
+      "updatedAt": "2024-01-18T09:15:00Z",
+      "links": {
+        "jobPosting": "https://startupxyz.io/jobs/full-stack-engineer",
+        "linkedin": "https://linkedin.com/company/startupxyz"
+      },
+      "notes": "Exciting startup opportunity with equity options.",
+      "salary": {
+        "min": 90000,
+        "max": 120000,
+        "currency": "USD"
+      },
+      "location": "New York, NY",
+      "remote": false
+    },
+    {
+      "id": "job-3",
+      "companyId": "company-3",
+      "title": "React Developer",
+      "roleType": "Frontend Developer",
+      "status": "offer",
+      "createdAt": "2024-01-10T11:30:00Z",
+      "updatedAt": "2024-01-25T16:45:00Z",
+      "links": {
+        "jobPosting": "https://enterprise-solutions.com/careers/react-dev"
+      },
+      "notes": "Received offer! Considering the package. Great team and growth opportunities.",
+      "salary": {
+        "min": 100000,
+        "max": 130000,
+        "currency": "USD"
+      },
+      "location": "Austin, TX",
+      "remote": true
+    },
+    {
+      "id": "job-4",
+      "companyId": "company-4",
+      "title": "Machine Learning Engineer",
+      "roleType": "ML Engineer",
+      "status": "rejected",
+      "createdAt": "2024-01-05T08:45:00Z",
+      "updatedAt": "2024-01-22T13:20:00Z",
+      "links": {
+        "jobPosting": "https://innovation-labs.com/jobs/ml-engineer"
+      },
+      "notes": "Rejected after technical interview. Need to improve ML fundamentals.",
+      "salary": {
+        "min": 140000,
+        "max": 180000,
+        "currency": "USD"
+      },
+      "location": "Seattle, WA",
+      "remote": false
+    },
+    {
+      "id": "job-5",
+      "companyId": "company-5",
+      "title": "UI/UX Developer",
+      "roleType": "Frontend Developer",
+      "status": "applied",
+      "createdAt": "2024-01-22T15:20:00Z",
+      "updatedAt": "2024-01-22T15:20:00Z",
+      "links": {
+        "jobPosting": "https://digital-agency.co/careers/ui-ux-developer"
+      },
+      "notes": "Creative agency role focusing on client projects. Portfolio review pending.",
+      "salary": {
+        "min": 75000,
+        "max": 95000,
+        "currency": "USD"
+      },
+      "location": "Los Angeles, CA",
+      "remote": true
+    },
+    {
+      "id": "job-6",
+      "companyId": "company-1",
+      "title": "DevOps Engineer",
+      "roleType": "DevOps Engineer",
+      "status": "withdrawn",
+      "createdAt": "2024-01-12T12:00:00Z",
+      "updatedAt": "2024-01-28T10:15:00Z",
+      "links": {
+        "jobPosting": "https://techcorp.com/careers/devops-engineer"
+      },
+      "notes": "Withdrew application after accepting another offer.",
+      "salary": {
+        "min": 110000,
+        "max": 140000,
+        "currency": "USD"
+      },
+      "location": "Remote",
+      "remote": true
+    }
+  ]
+}

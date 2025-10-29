@@ -1,0 +1,41 @@
+@import './styles/theme.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+  }
+  body {
+    @apply antialiased;
+    background-color: rgb(var(--background));
+    color: rgb(var(--foreground));
+  }
+}
+
+@layer components {
+  .card-elevated {
+    @apply bg-card rounded-2xl border shadow-lg;
+    border-color: rgb(var(--border));
+  }
+}
+
+@layer utilities {
+  .bg-surface {
+    background-color: rgb(var(--surface));
+  }
+  .bg-card {
+    background-color: rgb(var(--card));
+  }
+  .text-foreground {
+    color: rgb(var(--foreground));
+  }
+  .border-token {
+    border-color: rgb(var(--border));
+  }
+  .bg-primary {
+    background-color: rgb(var(--primary));
+  }
+}
